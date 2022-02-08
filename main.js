@@ -1,6 +1,18 @@
 $(document).ready(function(){
     $("form").on("click", function(){
-     Submit('Error Loading Page')
+     Submit('Your data has been submitted')
     });
+
+    $("#showContactForm").click(function(){
+      $("#contactForm").removeClass("displayNone");
+    });
+
+    $("#hideContactForm").click(function(){
+      $("#contactForm").addClass("displayNone");
+    });
+
+
+
+
   });
  
